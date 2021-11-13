@@ -1,4 +1,4 @@
-# my-app
+# BusinessUnitApiClient
 
 ## Project setup
 ```

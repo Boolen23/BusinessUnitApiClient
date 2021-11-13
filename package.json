@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "BusinessUnitApiClient",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "jquery": "^3.6.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -32,7 +34,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",
